@@ -68,7 +68,8 @@ def ans12():
         dosmth()
     else:
         print("Enter a valid answer, sucker!")
-        nerd()
+        ans12()
+	
 def ans13():
     print("You call me sucker? You're a slav!")
     print("Answer options:")
@@ -76,11 +77,11 @@ def ans13():
     print("2) Yeah. I got homeschooled and now I'm a nerd without any friends...")
     print("3) You dirty.")
     answer13 = int(input("Choose an answer: "))
-    if answerwtf == 1:
+    if answer13 == 1:
         dosmth()
-    elif answerwtf == 2:
+    elif answer13 == 2:
         dosmth()
-    elif answerwtf == 3:
+    elif answer13 == 3:
         dosmth()
     else:
         print("Enter a valid answer, sucker!")
